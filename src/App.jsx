@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav'
 function App() {
   return (
     <>
+    <h1>hello</h1>
     <Nav logo="Vaccination.ng" items={[{link : "#" , content : "Home"} , {link : "#services" , content : "Services"} , {link : "#schedule" , content : "Schedule"}, {link : "#feedback" , content : "FEEDBACK"}]} btn = "Check Status"/>
     </>
   )
